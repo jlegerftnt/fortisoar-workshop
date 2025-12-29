@@ -17,7 +17,7 @@ title = "Can't Code? No Problem"
   # Author of the site, will be used in meta information
   author.name = "James Hilving & Dylan Spille"
   # Select a color theme.
-  themeVariant = "workshop"
+  themeVariant = "Workshop"
   # themeVariant = "Spotlight"
   # themeVariant = "Demo"
   # themeVariant = "UseCase"
