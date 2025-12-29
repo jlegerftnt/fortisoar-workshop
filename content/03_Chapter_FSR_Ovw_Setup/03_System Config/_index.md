@@ -1,6 +1,6 @@
 ---
 title: System Configuration
-menuTitle: System Config
+linkTitle: System Config
 weight: 31
 ---
 

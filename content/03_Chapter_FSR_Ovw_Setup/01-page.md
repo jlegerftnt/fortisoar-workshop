@@ -1,6 +1,6 @@
 ---
 title: Incident Response
-menuTitle: Incident Response
+linkTitle: Incident Response
 weight: 5
 ---
 
@@ -8,12 +8,13 @@ weight: 5
 In this section we’ll explore the Incident Response modules of the system. Click around and checkout the record types inside this record group. Feel free to click: ![Add button](add.png?classes=inline) to see what fields are used for records of the different modules. You can create records and delete records to just get a feel for the system if you like.
 
 ---
+
 The Incident Response Group is where we will find records that are often used in SOC operations. We have provided a breakdown of what each module's purpose is.
 
 ![Incident Response dropdown](incresp1.png?height=300px)
 
 |  Module Name   |                                                                                           Description                                                                                            |
-|:--------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| :------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |     Alerts     |                Actionable items commonly used for ingestion from other systems. Often contains information that can become indicators that are used to correlate common problems.                |
 |   Incidents    |                                                                     Incidents are confirmed impacts from one or more alerts.                                                                     |
 |     Tasks      |                                        Tasks are simply a place to store actionable items for individuals or bots and can be related to any other record.                                        |

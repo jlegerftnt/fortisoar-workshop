@@ -1,6 +1,6 @@
 ---
 title: Find the Malicious URL Indicator and Block it
-menuTitle: Block Malicious Indicator
+linkTitle: Block Malicious Indicator
 weight: 25
 ---
 
@@ -12,7 +12,7 @@ In this **Alert** we can see that we obtained an email and extracted various “
 1. Inside the **Alert**, navigate to the bottom of the record and look for the **Indicators tab**. ![Indicator Relationships](alert81.png?height=300px)
 
 2. Find the **URL Type Indicator** named `http://demo.gumblar.cn/` and drill into this record. ![IOC detail view](gumblar.png)
-{{% notice note %}}Notice that when inside an indicator record from the alert record we see “Alert -> Indicator” as our path at the top. This can be used to help navigate you back to the original alert which would be “less clicks” than closing out the window and finding the alert again when you are done with the indicator.{{% /notice %}}
+   {{% notice note %}}Notice that when inside an indicator record from the alert record we see “Alert -> Indicator” as our path at the top. This can be used to help navigate you back to the original alert which would be “less clicks” than closing out the window and finding the alert again when you are done with the indicator.{{% /notice %}}
 
 3. Inside this opened **Indicator** record look for the Execute button at the bottom of the record ![Execute Button](exec.png) and Execute the “**Block URL**” playbook. ![Execute button Options](blockurl.png?height=300px)
 

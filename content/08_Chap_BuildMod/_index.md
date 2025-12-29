@@ -1,6 +1,6 @@
 ---
 title: BUILD A CUSTOM MODULE FOR FORTISOAR
-menuTitle: Build a Custom Module
+linkTitle: Build a Custom Module
 weight: 80
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: INSPECT THE INCIDENT DETAILS
-menuTitle: Inspect Incident Details
+linkTitle: Inspect Incident Details
 weight: 35
 ---
 
@@ -10,6 +10,6 @@ weight: 35
 
 2. Inside the **Incident** you can see a visual representation of the **Alerts** and **Indicators** involved in this case. You can toggle the view using the view buttons in the right hand corner.
 
-|||
-|:-----:|:-----:|
-|![View buttons](viewbuttons.png)|![Relationship Graph](visual.png)|
+|                                  |                                   |
+| :------------------------------: | :-------------------------------: |
+| ![View buttons](viewbuttons.png) | ![Relationship Graph](visual.png) |

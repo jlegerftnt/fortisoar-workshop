@@ -1,6 +1,6 @@
 ---
 title: FortiSOAR from a User's Perspective - Hunting IOCs
-menuTitle: FSR - Hunting IOCs
+linkTitle: FSR - Hunting IOCs
 weight: 50
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: DOWNLOAD AND CREATE A LIST OF POTENTIAL INDICATORS FROM OUR HUNT
-menuTitle: Download & Create Indicators
+linkTitle: Download & Create Indicators
 weight: 15
 ---
 

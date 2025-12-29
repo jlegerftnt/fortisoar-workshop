@@ -1,6 +1,6 @@
 ---
 title: FORTISOAR SYSTEM OVERVIEW AND SETUP
-menuTitle: FSR Overview & Setup
+linkTitle: FSR Overview & Setup
 weight: 30
 ---
 

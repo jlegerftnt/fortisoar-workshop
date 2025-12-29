@@ -1,6 +1,6 @@
 ---
 title: CREATE AN API ACCOUNT ON THE FORTIGATE
-menuTitle: Create API Acct
+linkTitle: Create API Acct
 weight: 15
 ---
 
@@ -23,8 +23,8 @@ We want to create a new API Admin, called **“fortisoar”** to use the Fortiga
 
 5. Make sure the hostname matches “**10.100.88.1**“ and click **Set API Key** to set the Key you obtained for the “fortisoar” API user from the FortiGate.
 
-|||
-|:-----:|:-----:|
-|![](setkey.png)|![](fgtcustom.png?height=400px)|
+|                 |                                 |
+| :-------------: | :-----------------------------: |
+| ![](setkey.png) | ![](fgtcustom.png?height=400px) |
 
 1. After you save you should see a successful status message. ![](confconn.png?height=300px)

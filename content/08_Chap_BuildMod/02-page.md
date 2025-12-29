@@ -1,6 +1,6 @@
 ---
 title: REVIEW THE POLICIES MODULE CREATED FROM THE IMPORT
-menuTitle: Review Policies
+linkTitle: Review Policies
 weight: 10
 ---
 
@@ -14,8 +14,8 @@ weight: 10
 
 4. Go to the Dashboards page from the left Navigation Pane and open the SOC Review Dashboard.
 
-    |||
-    |:-----:|:-----:|
-    |![Dashboard Dropdown](socrevdash.png)|![Dashboard options](socrev.png?height=300px)|
+   |                                       |                                               |
+   | :-----------------------------------: | :-------------------------------------------: |
+   | ![Dashboard Dropdown](socrevdash.png) | ![Dashboard options](socrev.png?height=300px) |
 
 5. This is the dashboard you will use to manage policies populated from your FortiGate config. ![New Dashboard](intro.png?height=300px)

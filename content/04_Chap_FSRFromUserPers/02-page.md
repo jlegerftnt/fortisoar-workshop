@@ -1,6 +1,6 @@
 ---
 title: Create a New Email Phishing Alert
-menuTitle: Create Phishing Alert
+linkTitle: Create Phishing Alert
 weight: 10
 ---
 
@@ -13,10 +13,10 @@ We can now use the scenario generator to create a phishing email alert that need
 2. Select the "**Phishing Email**" Scenario and Start the Scenario.![Phishing Email Button](phishemail.png)
 3. The Alert might come in as **Medium** at first and then will elevate to **Critical**. This is because a linked indicator was found to be malicious.
 
-|||
-| :-----: | :-----: |
-|![Medium Severity Icon](medium.png)|![Critical Severity Icon](critical.png)|
+|                                     |                                         |
+| :---------------------------------: | :-------------------------------------: |
+| ![Medium Severity Icon](medium.png) | ![Critical Severity Icon](critical.png) |
 
 1. We don’t have much time to meet our SLA! Move to the next step ASAP!
-*Don’t worry if you miss your SLA nothing bad happens…unless you’re running in a much more immersive workshop and have a lab manager too. 😉*
- ![Alert page with new alert](simulate1.png)
+   _Don’t worry if you miss your SLA nothing bad happens…unless you’re running in a much more immersive workshop and have a lab manager too. 😉_
+   ![Alert page with new alert](simulate1.png)

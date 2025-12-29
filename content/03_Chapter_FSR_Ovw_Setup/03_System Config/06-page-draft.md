@@ -1,6 +1,6 @@
 ---
 title: Enable Debug Mode for all Playbooks
-menuTitle: Enable Debug Mode
+linkTitle: Enable Debug Mode
 weight: 55
 draft: true
 ---
@@ -11,7 +11,7 @@ For this lab we will enable DEBUG level logging by default so we can analyze eve
 
 ---
 
-- As the csadmin user, go to System Settings **System -> System Configuration -> Application Configuration**. *Use the System gear icon to get here* ![Gear icon](gearicon.png)
+- As the csadmin user, go to System Settings **System -> System Configuration -> Application Configuration**. _Use the System gear icon to get here_ ![Gear icon](gearicon.png)
 - Find Playbook Execution Logging Level
 - Set the **Global Playbook Logging Level** to **DEBUG** if it is not already.
 - Uncheck “Allow Individual Playbook level logging settings to override global settings” if it is set.

@@ -1,6 +1,6 @@
 ---
 title: CONFIRM THE CHANGES IN THE FORTIGATE
-menuTitle: Confirm Changes
+linkTitle: Confirm Changes
 weight: 40
 ---
 

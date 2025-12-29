@@ -1,6 +1,6 @@
 ---
 title: INVESTIGATE THE PLAYBOOKS RELATED TO THIS INDICATOR
-menuTitle: Investigate the Playbooks
+linkTitle: Investigate the Playbooks
 weight: 30
 ---
 

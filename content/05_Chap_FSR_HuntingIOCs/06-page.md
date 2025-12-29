@@ -1,6 +1,6 @@
 ---
 title: ESCALATE ALERTS TO AN INCIDENT
-menuTitle: Escalate Alerts
+linkTitle: Escalate Alerts
 weight: 30
 ---
 
@@ -10,9 +10,9 @@ Now that we have **Alerts**, where in this simulated scenario we found active IO
 ---
 
 1. Select the 3 **Alerts** and **Execute** the **Escalate** playbook.
-  ![Escalate Popup](escaplay.png)
+   ![Escalate Popup](escaplay.png)
 
 2. Fill out Incident information and click **Escalate**.
-  ![Escalate Options](fillout.png)
+   ![Escalate Options](fillout.png)
 
 3. You can now see the new record in the **Incidents** module. ![New Incident display](newinc.png)

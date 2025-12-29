@@ -1,6 +1,6 @@
 ---
 title: Setup FSR OT Asset Management Solution Pack
-menuTitle: Setup OT Solution Pack
+linkTitle: Setup OT Solution Pack
 weight: 10
 ---
 
@@ -14,7 +14,7 @@ We want to install a FortiSOAR communications if not already setup. If this is a
 
 - On the left Navigation Pane, go to **Content Hub**. ![Content Hub Navigation](content_hub_nav.png?height=400px)
 - In the Discover Tab search for **OT - Asset Management**.
-![Discover Tab Search OT](discover_tab_search.png?height=400px)
+  ![Discover Tab Search OT](discover_tab_search.png?height=400px)
 
 {{% notice tip %}}
 The Content Hub has a minimum requirement of 3 characters so make sure to not only type "**OT**"
@@ -30,4 +30,4 @@ This solution pack has 4 dependencies. Solution packs often build upon other sol
 {{% /notice %}}
 
 - Once the installation is complete you'll see the Solution pack has a green checkmark at the corner
-![Install Complete](ot_pack_installed.png)
+  ![Install Complete](ot_pack_installed.png)

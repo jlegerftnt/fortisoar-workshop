@@ -34,7 +34,7 @@ other = "Edit"
 [Print-this-chapter]
 other = "Print whole chapter"
 
-[Shortcuts-Title]
+[shortcuts-menuTitle]
 other = "Helpful Resources"
 
 [Expand-title]

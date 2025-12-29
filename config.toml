@@ -15,11 +15,9 @@ title = "Can't Code? No Problem"
 
 [params]
   # Author of the site, will be used in meta information
-  author = "James Hilving & Dylan Spille"
-  # Description of the site, will be used in meta information
-  description = "Review the capabilities of the FortiSOAR platform and how it can benefit your business"
+  author.name = "James Hilving & Dylan Spille"
   # Select a color theme.
-  themeVariant = "Xperts2023"
+  themeVariant = "workshop"
   # themeVariant = "Spotlight"
   # themeVariant = "Demo"
   # themeVariant = "UseCase"
@@ -62,7 +60,7 @@ title = "Can't Code? No Problem"
 
 
 [outputs]
-home = [ "HTML", "RSS", "SEARCH"]
+home = [ "HTML", "RSS"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-print'></i> Single Page View (for printing)"

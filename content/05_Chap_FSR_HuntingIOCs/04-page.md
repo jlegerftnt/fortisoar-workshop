@@ -1,6 +1,6 @@
 ---
 title: LOOK AT THE PLAYBOOK WE ARE RUNNING TO HANDLE THE IOC HUNT
-menuTitle: Handle the IOC Hunt
+linkTitle: Handle the IOC Hunt
 weight: 20
 ---
 
@@ -16,8 +16,8 @@ This will open the playbook history for this record. Find the playbook named **H
 
 1. Click the **Edit Playbook** button on the upper right hand corner of the playbook log. Double-click on the **Download IOCs CSV File** step and find the loop configuration.
 
-    |||
-    |:-----:|:-----:|
-    |![Edit Playbook Button](editplaybook.png)|![For Loop settings](loop.png)|
+   |                                           |                                |
+   | :---------------------------------------: | :----------------------------: |
+   | ![Edit Playbook Button](editplaybook.png) | ![For Loop settings](loop.png) |
 
 1. Close the previous step and double-click on the **Configuration** step and find the configuration settings. ![Variable Configuration](config.png)

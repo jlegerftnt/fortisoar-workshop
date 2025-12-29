@@ -1,18 +1,18 @@
 ---
 title: Download Files
-menuTitle: Download Files
+linkTitle: Download Files
 weight: 4
 ---
 
 ![user_complete_icon](check_box.svg)
-File hosting has been transitioned away from Egnyte to self hosted. For your convience, all of the files you'll need will be available as a zip file called `all_files.zip`. Please download this file and unzip it *ONCE*.
+File hosting has been transitioned away from Egnyte to self hosted. For your convience, all of the files you'll need will be available as a zip file called `all_files.zip`. Please download this file and unzip it _ONCE_.
 
 {{% notice warning %}}
-Do not unzip the files *INSIDE* the zip file.
+Do not unzip the files _INSIDE_ the zip file.
 {{% /notice %}}
 
 1. Click the button to download the files
-{{% button href="../docs/all_files.zip" %}}Download Files{{% /button %}}
+   {{% button href="../docs/all_files.zip" %}}Download Files{{% /button %}}
 
 2. Unzip the `all_files.zip` file
 

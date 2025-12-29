@@ -1,6 +1,6 @@
 ---
 title: Close the Alert
-menuTitle: Close the Alert
+linkTitle: Close the Alert
 weight: 35
 ---
 

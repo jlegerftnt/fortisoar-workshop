@@ -1,6 +1,6 @@
 ---
 title: CONFIRM ALERTS ARE CREATED FROM FORTIANALYZER EVENTS
-menuTitle: Confirm Alerts
+linkTitle: Confirm Alerts
 weight: 20
 ---
 

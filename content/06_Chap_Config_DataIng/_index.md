@@ -1,6 +1,6 @@
 ---
 title: CONFIGURE DATA INGESTION FOR FORTISOAR & FORTIANALYZER
-menuTitle: Configure Data Ingestion
+linkTitle: Configure Data Ingestion
 weight: 60
 ---
 

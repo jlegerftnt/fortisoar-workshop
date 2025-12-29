@@ -1,6 +1,6 @@
 ---
 title: Install Scenario for Email Phishing Test
-menuTitle: Install Email Phishing Test
+linkTitle: Install Email Phishing Test
 weight: 5
 ---
 
@@ -11,9 +11,9 @@ To use this Solution Pack we need to install it (If not already installed). Use 
 
 - Go to **Automation > Connectors** OR just Find the **Content Hub** directly.
 
-|||
-| :-----: | :-----: |
-|![Connector Icon](connectors.png)|![Content Hub Icon](contenthub.png)|
+|                                   |                                     |
+| :-------------------------------: | :---------------------------------: |
+| ![Connector Icon](connectors.png) | ![Content Hub Icon](contenthub.png) |
 
 - Select the **Solution Packs** Content Type checkbox, if it's not already selected
 - Search for “**phishing**” inside the **Discover Tab**.

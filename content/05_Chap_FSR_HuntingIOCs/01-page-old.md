@@ -1,6 +1,6 @@
 ---
 title: Install Scenario Simulation
-menuTitle: Install Simulation
+linkTitle: Install Simulation
 weight: 5
 draft: true
 ---
@@ -14,9 +14,9 @@ Password: `p9iFpVjg`
 
 1. Under the **Manage** Tab inside the **Content Hub** find the **Upload Solution Pack** button.
 
-|||
-| :-----: | :-----: |
-|![](mngcontent.png)|![](upload.png)|
+|                     |                 |
+| :-----------------: | :-------------: |
+| ![](mngcontent.png) | ![](upload.png) |
 
 2. Check the **Replace existing version** option and install the Solution Pack. ![](replace.png)
 

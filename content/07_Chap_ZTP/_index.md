@@ -1,6 +1,6 @@
 ---
 title: ZTP Overview
-menuTitle: ZTP Overview
+linkTitle: ZTP Overview
 weight: 70
 ---
 
@@ -8,7 +8,6 @@ weight: 70
 Zero Touch Provisioning (ZTP) is an automated deployment and configuration technique used by Fortinet's FortiGate firewalls and FortiManager central management platform. ZTP streamlines network security infrastructure deployment, allowing for automatic provisioning and configuration of new devices upon network connection, reducing manual setup, and minimizing misconfiguration risks. FortiManager acts as a central control point, storing configuration templates, policies, and security profiles for FortiGate devices, which ZTP then uses to maintain consistent security policies and simplify network security device deployment and management. This enhances network security while saving time and effort on setup and maintenance.
 
 ![FortiSOAR FortiManager Summary](fortisoar-fortimanager-summary-visual.png)
-
 
 ## Objectives
 

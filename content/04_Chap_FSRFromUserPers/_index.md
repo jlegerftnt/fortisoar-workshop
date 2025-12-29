@@ -1,6 +1,6 @@
 ---
 title: FortiSOAR from a User's Perspective - Analyzing Emails
-menuTitle: FSR - Analyzing Emails
+linkTitle: FSR - Analyzing Emails
 weight: 40
 ---
 

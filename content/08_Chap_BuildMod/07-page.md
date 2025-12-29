@@ -1,6 +1,6 @@
 ---
 title: USE THE POLICY MODULE TO REQUEST MORE INFO ON A FIREWALL POLICY
-menuTitle: Request Info on Policy
+linkTitle: Request Info on Policy
 weight: 35
 ---
 
@@ -14,16 +14,16 @@ Sometimes we need to engage others to help us through our workflow. In this step
 
 2. At the bottom of the page, click the blue **Execute** button, then click “**Start Policy Audit**”.
 
-|||
-|:-----:|:-----:|
-|![](exec.png)|![](revpol.png?height=300px)|
+|               |                              |
+| :-----------: | :--------------------------: |
+| ![](exec.png) | ![](revpol.png?height=300px) |
 
 1. Select “**Email NOC Team for additional input**”
 
-2. You will see two new fields appear, Email To and Email Body. Replace *PROVIDE INFO NEEDED HERE* with “**Provide the justification for allowing all ports for the service**” and **Submit** ![](emailbody.png?height=300px)
+2. You will see two new fields appear, Email To and Email Body. Replace _PROVIDE INFO NEEDED HERE_ with “**Provide the justification for allowing all ports for the service**” and **Submit** ![](emailbody.png?height=300px)
 
-3. Using the same steps in the “**Test Emails with a Task**” section above, while on a different browser, access the inbox for SocUser1 using socuser1/```$3curityFabric```
-![](soc_user_login_mail.png?height=300px)
+3. Using the same steps in the “**Test Emails with a Task**” section above, while on a different browser, access the inbox for SocUser1 using socuser1/`$3curityFabric`
+   ![](soc_user_login_mail.png?height=300px)
 
 4. Open the “A FortiSOAR playbook is requesting your input” email. ![](reqinput.png?height=200px)
 

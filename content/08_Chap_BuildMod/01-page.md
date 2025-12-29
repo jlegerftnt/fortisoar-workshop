@@ -1,6 +1,6 @@
 ---
 title: IMPORT THE SOLUTION MODULE(S) WITH PLAYBOOKS
-menuTitle: Import Modules
+linkTitle: Import Modules
 weight: 5
 ---
 
@@ -22,4 +22,4 @@ Locate the **FortiSOAR-SE_Training2023-PolicyModule.zip** file that is in your d
 6. Click “**I have reviewed the changes – Publish**”. ![Review Publish Popup](revpub.png?height=300px)
 
 7. Wait for the import to finish
-![Import Status](import_status.png?height=300px)
+   ![Import Status](import_status.png?height=300px)

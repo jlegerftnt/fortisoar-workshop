@@ -1,6 +1,6 @@
 ---
 title: Confirm & Edit the System Notification Channel
-menuTitle: System Notification Channel
+linkTitle: System Notification Channel
 weight: 35
 ---
 
@@ -11,7 +11,7 @@ We want the system to use FortiMail as the SMTP host for email notifications. We
 
 1. Navigate to System Settings (Gear Icon at the top right). ![System Settings Icon](topright.png)
 
-2. Go to **System > Notifications > Notification Channels** and *double click* the text **Email Notification** to open the record ![Email Notification](email_notification.png)
+2. Go to **System > Notifications > Notification Channels** and _double click_ the text **Email Notification** to open the record ![Email Notification](email_notification.png)
 
 3. Click the continue button.![Continue button](continue.png?height=40px&classes=left)
 
@@ -26,6 +26,7 @@ If not set to SMTP then change the “Choose suitable configured connector” to
 ---
 
 ![search_icon](mag_glass.svg)
+
 ### Bonus Points :money_with_wings:
 
 - Navigate to **System > Notifications > Delivery Rules**

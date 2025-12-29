@@ -1,6 +1,6 @@
 ---
 title: Un-Isolate Device
-menuTitle: Un-Isolate Device
+linkTitle: Un-Isolate Device
 weight: 60
 ---
 
@@ -12,11 +12,11 @@ Finally, we have build out a process to remove an Asset from the OT Isolated Gro
 ## Un-Isolate the Asset
 
 1. Navigate to **Resources > Assets**
-![Assets](assets_nav.png)
+   ![Assets](assets_nav.png)
 
 1. Select the checkbox of the Asset record with **Asset Type** of **OT** , that has the **Asset State** of Isolated.
 1. Click the Execute button and Click **Unisolate Device**
-![UnIsolate Device](unisolate_asset.png)
+   ![UnIsolate Device](unisolate_asset.png)
 
 {{% notice note %}}
 Make sure that the asset you've selected is in fact an **OT** Type, and previously **Isolated**. Playbooks can have visibility conditions to prevent them from being activated incorrectly.
@@ -24,12 +24,12 @@ Make sure that the asset you've selected is in fact an **OT** Type, and previous
 
 1. Click the clipboard icon at the top right
 1. Click the text **Are you sure you want to Un-Isolate?**
-![Manual Input Unisolate](manual_input_unisolate_1.png)
+   ![Manual Input Unisolate](manual_input_unisolate_1.png)
 1. Click yes to confirm isolating the playbook
-![Confirm un-isolate](manual_input_unisolate_2.png)
+   ![Confirm un-isolate](manual_input_unisolate_2.png)
 
-1. If you are signed into FortiSOAR as `csadmin`, you will receive an additional pop up asking you to approve the request. If you do not see this pop up, sign out of FortiSOAR and sign in with csadmin/```$3curityFabric```
-![Approve Unisolate](manual_input_unisolate_3.png)
+1. If you are signed into FortiSOAR as `csadmin`, you will receive an additional pop up asking you to approve the request. If you do not see this pop up, sign out of FortiSOAR and sign in with csadmin/`$3curityFabric`
+   ![Approve Unisolate](manual_input_unisolate_3.png)
 
 1. Approve the request
 
@@ -39,7 +39,7 @@ Make sure that the asset you've selected is in fact an **OT** Type, and previous
 
 1. Navigate to **Policy & Objects > Firewall Policy**
 1. Hover over the **OT Isolated** group to confirm you do not see the IP of the asset you Un-Isolated
-![isolated_group](isolated_group_empty.png)
+   ![isolated_group](isolated_group_empty.png)
 
 ---
 

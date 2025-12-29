@@ -1,6 +1,6 @@
 ---
 title: Modules and Navigation
-menuTitle: Modules and Navigation
+linkTitle: Modules and Navigation
 weight: 70
 ---
 

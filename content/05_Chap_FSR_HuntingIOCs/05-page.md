@@ -1,6 +1,6 @@
 ---
 title: FIND RELATED RECORDS CREATED FROM THE IOCS FILE
-menuTitle: Find Related Records
+linkTitle: Find Related Records
 weight: 25
 ---
 
