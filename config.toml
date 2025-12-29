@@ -1,5 +1,5 @@
 # don't change the following 8 lines
-baseURL = "http://tec.myfortinet.com/tec-sample/"
+baseURL = "http://tec.myfortinet.com/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 theme = ["hugo-theme-relearn"]
@@ -17,7 +17,7 @@ title = "Can't Code? No Problem"
   # Author of the site, will be used in meta information
   author.name = "James Hilving & Dylan Spille"
   # Select a color theme.
-  themeVariant = "Workshop"
+themeVariant = "Workshop"
   # themeVariant = "Spotlight"
   # themeVariant = "Demo"
   # themeVariant = "UseCase"
