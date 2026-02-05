@@ -63,7 +63,7 @@ jobs:
       - name: Build with Hugo for offline/zip (relative URLs)
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
+          HUGO_ENVIRONMENT: offline
           TZ: America/Los_Angeles
         run: |
           hugo \

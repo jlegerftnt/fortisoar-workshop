@@ -80,7 +80,12 @@
     font-weight: 100 1000;
     font-stretch: 100%;
     font-display: swap;
-    src: url('/fonts/Inter-V.ttf');
+
+  {{ if eq hugo.Environment "offline" }}
+      src: url('fonts/Inter-V.ttf');
+      {{ else }}
+      src: url('/fonts/Inter-V.ttf');
+  {{ end }}
   }
   ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
