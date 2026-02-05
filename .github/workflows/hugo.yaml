@@ -50,7 +50,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build with Hugo
+      - name: Build with Hugo for GitHub Pages
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
@@ -60,13 +60,25 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Create zip file and add to build
+      - name: Build with Hugo for offline/zip (relative URLs)
+        env:
+          HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
+          HUGO_ENVIRONMENT: production
+          TZ: America/Los_Angeles
         run: |
-          cd ./public
-          zip -r hugo-site.zip .
-          mv hugo-site.zip ..
+          hugo \
+            --gc \
+            --minify \
+            --baseURL "/" \
+            --destination ./public-offline
+      - name: Create zip file from offline build
+        run: |
+          cd ./public-offline
+          zip -r ../hugo-site.zip .
           cd ..
-          mv hugo-site.zip ./public/
+      - name: Copy zip to public folder for hosting
+        run: |
+          cp hugo-site.zip ./public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
