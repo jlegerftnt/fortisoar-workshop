@@ -3,7 +3,7 @@
     height="70"
     style="vertical-align: middle"
     alt="{{ .Site.Title }}"
-    {{ if eq hugo.Environment "offline" }}
+    {{ if or (eq hugo.Environment "offline") (eq hugo.Environment "github") }}
       src="{{ "images/white-logo.svg" | relURL }}"
     {{ else }}
       src="{{ "/images/white-logo.svg" | relURL }}"

@@ -81,7 +81,7 @@
     font-stretch: 100%;
     font-display: swap;
 
-  {{ if eq hugo.Environment "offline" }}
+  {{ if or (eq hugo.Environment "offline") (eq hugo.Environment "github") }}
       src: url('fonts/Inter-V.ttf');
       {{ else }}
       src: url('/fonts/Inter-V.ttf');

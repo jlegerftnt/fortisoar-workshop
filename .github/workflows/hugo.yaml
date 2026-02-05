@@ -47,16 +47,15 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build site for GitHub Pages (default config.toml)
+      - name: Build site for GitHub Pages
         env:
+          HUGO_ENVIRONMENT: github
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          TZ: America/Chicago
         run: |
           hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-
 
       - name: Build with Hugo for offline zip (relative URLs)
         env:
