@@ -5,6 +5,8 @@
     alt="{{ .Site.Title }}"
     {{ if eq hugo.Environment "offline" }}
       src="{{ "images/white-logo.svg" | relURL }}"
+    {{ else }}
+      src="{{ "/images/white-logo.svg" | relURL }}"
     {{ end }}
   />
 

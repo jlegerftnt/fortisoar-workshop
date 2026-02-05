@@ -30,7 +30,9 @@ jobs:
           sudo dpkg -i "${{ runner.temp }}/hugo.deb"
 
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        run: |
+          npm install -g sass
+          echo "$(npm config get prefix)/bin" >> "$GITHUB_PATH"
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -67,7 +69,6 @@ jobs:
             --minify \
             --destination ./public-offline \
             --baseURL "./" \
-            --relativeURLs
 
       - name: Create zip file from offline build
         run: |
