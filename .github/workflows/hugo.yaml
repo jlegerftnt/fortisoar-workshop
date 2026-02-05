@@ -69,8 +69,12 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "/" \
+            --baseURL "" \
             --destination ./public-offline
+      - name: Debug - Check index.html URLs
+        run: |
+          echo "=== Checking URLs in offline build ==="
+          head -50 ./public-offline/index.html
       - name: Create zip file from offline build
         run: |
           cd ./public-offline
