@@ -60,6 +60,13 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Create zip file and add to build
+        run: |
+          cd ./public
+          zip -r hugo-site.zip .
+          mv hugo-site.zip ..
+          cd ..
+          mv hugo-site.zip ./public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
