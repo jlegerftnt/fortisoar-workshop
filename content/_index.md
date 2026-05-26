@@ -5,7 +5,7 @@ archetype: home
 description: "Review the capabilities of the FortiSOAR platform and how it can benefit your business"
 ---
 
-## XPERTS 2023
+## FortiSOAR Workshop
 
 ## Lab Guide
 
