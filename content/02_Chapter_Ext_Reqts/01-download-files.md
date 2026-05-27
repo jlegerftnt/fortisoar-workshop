@@ -25,4 +25,5 @@ all_files
 ├── FortiSOAR-SE_Training2023-Workshop.zip
 ├── OT_Collection.json
 └── fortisoar-workshop-fortimail-users.csv
+└── FortiSOAR-Sunburst Attack CSE-2.0.0.zip
 ```
