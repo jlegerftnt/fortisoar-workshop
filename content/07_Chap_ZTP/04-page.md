@@ -116,9 +116,6 @@ The metafields are used to pass variables to the scripts. The metafields are ref
    config firewall address
    	purge
    end
-   config firewall service
-   	purge
-   end
    ```
 
 3. Click **Create**.
