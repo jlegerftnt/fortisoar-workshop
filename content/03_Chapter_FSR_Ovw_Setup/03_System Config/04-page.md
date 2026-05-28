@@ -1,11 +1,12 @@
 ---
-title: Edit System FQHN for Email URLs
-linkTitle: Edit System FQHN
+title: Set Global Variables
+linkTitle: Set Global Variables
 weight: 45
 ---
 
 ![user_complete_icon](check_box.svg)
-When emails leave FortiSOAR, they provide links back into the system. If the Server’s FQHN (Full Qualified Host Name) is not accurate, then when users receive emails from SOAR the hyperlink will be wrong. We will fix this for the lab.
+
+We need to set a couple of global variables for the workshop. Global variables are used by playbooks and other FortiSOAR components to store values that can be reused across automations. In this lab, we will update these values from inside a draft playbook so the workshop environment behaves correctly for the upcoming exercises.
 
 ---
 
@@ -13,6 +14,17 @@ When emails leave FortiSOAR, they provide links back into the system. If the Ser
 
 1. Open the **Tools > Global Variables** section inside the newly created playbook.
    ![Global Variables](globalvars.png)
+
+## Set Demo_mode
+
+1. Click the pencil icon to the right of Demo_mode.
+   ![Demo_mode variable](demo_mode.png)
+1. Set the **Field Value** to **true**.
+1. Click the Submit button once you're done.
+
+## Set Server_fqhn
+
+When emails leave FortiSOAR, they provide links back into the system. If the Server’s FQHN (Full Qualified Host Name) is not accurate, then when users receive emails from SOAR the hyperlink will be wrong. We will fix this for the lab.
 
 1. Look at the URL for your FortiSOAR Instance. This will likely be something like “username-demo_name-fortidemo.fortinet.com:port_number” but may vary depending on your environment.
 
