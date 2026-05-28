@@ -130,7 +130,7 @@ The order priority is used to determine the order in which the scripts are execu
    ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields on the popup (leave the rest as default):
 
-   - **Name**: `Configure Admin User and Loopback interface`
+   - **Name**: `Config Admin User and Loopback`
    - **Description**: `This script will create an admin user on a FortiGate for Fortinet XPERTS 2023`
    - **Type**: `Remote CLI`
    - **Script**:
@@ -143,7 +143,7 @@ The order priority is used to determine the order in which the scripts are execu
      edit "{{devmeta.admin_user_name}}"
        set accprofile "super_admin"
        set vdom "root"
-       set password fortinet
+       set password Fortinet123#
      next
    end
    config system interface
