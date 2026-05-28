@@ -13,9 +13,8 @@ So far there has been a lot of touch! But we're _very_ close to zero now. In thi
 ## Modify the ZTP Profile
 
 1. Navigate to **FortiManager > ZTP Profiles** and edit the **Branch ZTP Profile**.
-2. At the bottom right of the record click **Edit Record**
+2. Select the  **Edit Settings** tab
 3. Change the **Assignment Mode** field to **Automatic**.
-4. Click **Save**.
 
 ![Set ZTP profile to automatic](ztp_profile_auto.png)
 
