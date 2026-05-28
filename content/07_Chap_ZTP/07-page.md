@@ -15,38 +15,63 @@ So far there has been a lot of touch! But we're _very_ close to zero now. In thi
 1. Navigate to **FortiManager > ZTP Profiles** and edit the **Branch ZTP Profile**.
 2. Select the  **Edit Settings** tab
 3. Change the **Assignment Mode** field to **Automatic**.
+4. Exit the ztp profile
 
 ![Set ZTP profile to automatic](ztp_profile_auto.png)
 
 ---
+### Schedule the Device Synchronization
+In this section, we’ll create a schedule so FortiSOAR automatically synchronizes unauthorized devices from FortiManager.
 
-## Import Playbook Collection
+1. Navigate to **Automation > Schedules**.
 
-1. Locate the **FOS ZTP Helpers.zip** file that is in your downloaded `all_files` folder.
-2. Go to **System > Application Editor> Import Wizard**
-3. click **Import from File** and select the file **FOS ZTP Helpers.zip**
-   ![Import Wizard](appeditor.png?height=300px)
-4. Leave all the default settings and click ![Continue button](continue.png?height=40px&classes=inline) twice, and then click **Run Import**
-   ![Select configuration to import](selectconfigs.png?height=250px)
-5. The import should complete without error.
+    ![schedules_navigation](schedules.png)
+
+1. Click **Create New Schedule**.
+1. Fill out the schedule with the following details:
+
+    - **Name**: `Retrieve Unauthorized Fortigates`
+    - **Start Schedule**: `True` (enable the schedule)
+    - **Playbook Reference**: `Synch All FMG Device DB Button`
+    - **Schedule Frequency**: `Every X minutes`
+    - **Interval**: `5` (can be adjusted as low as 1 minute)
+
+1. Click **Save**.
+
+This will automatically pull in new unauthorized devices every 5 minutes, eliminating the need for manual synchronization.
 
 ---
+### Onboard Branch2
+1. Login to the Branch2 FortiGate using the web interface
+1. Follow the steps outlined [here]({{% relref "/07_Chap_ZTP/05-page.md" %}}) to register the FortiGate to FortiManager
+1. The device will appear as “Unauthorized” in FortiManager
 
-## Trigger ZTP
+---
+### Watch the Automation in Action
+Now you can observe the Fortigate being automatically:
 
-We're going to Onboard Branch2 to our FortiManager using another method: API.
+- Discovered by the scheduled synchronization (within 5 minutes)
+- Assigned the **Branch ZTP Profile** automatically
+- Configured with all the settings from your ZTP profile
 
-1. Navigate to **FortiManager > Devices**
-2. Click the Execute button and select "Set FMG via FOS API" from the dropdown
-   ![Set FMG via FOS API](set_fmg_via_fos_api.png)
-3. Provide the following information
-   - **FortiGate IP**: `10.100.88.9`
-   - **FortiManager**: `10.100.88.10`
-   - **Username**: `admin`
-   - **Password**: `$3curityFabric`
-4. Click **Execute**
-5. Click **Synchronize All FMG DeviceDBs**
-6. Notice that the Branch2 device is now in the **Devices** list and will be automatically assigned the **Branch ZTP Profile**. This is because we set the **Assignment Mode** to **Automatic** in the previous step AND the ZTP profile assignment regex matches the Device Name
-7. When the ZTP phase changes to **Pending** we need to fill out the required task. This is done the same way as we did for Branch1. Open the input task and provide `172.16.2.1`
-   ![branch_2_loopback](branch_2_loopback.png)
-8. Click **Continue**
+The entire process should complete without any manual intervention, achieving true zero-touch provisioning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
