@@ -23,7 +23,8 @@ all_files
 ├── FOS_ZTP_Helpers.zip
 ├── FortiSOAR-SE_Training2023-PolicyModule.zip
 ├── FortiSOAR-SE_Training2023-Workshop.zip
+├── FortiSOAR-Sunburst Attack CSE-2.0.0.zip
 ├── OT_Collection.json
+├── Update Fortigate Policy Playbook.json
 └── fortisoar-workshop-fortimail-users.csv
-└── FortiSOAR-Sunburst Attack CSE-2.0.0.zip
 ```
