@@ -2,6 +2,7 @@
 title: CREATE AN API ACCOUNT ON THE FORTIGATE
 linkTitle: Create API Acct
 weight: 15
+draft: true
 ---
 
 ![user_complete_icon](check_box.svg)
