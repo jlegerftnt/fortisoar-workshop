@@ -1,7 +1,7 @@
 ---
 title: ZTP Overview
 linkTitle: ZTP Overview
-weight: 70
+weight: 80
 ---
 
 ![search_icon](mag_glass.svg)

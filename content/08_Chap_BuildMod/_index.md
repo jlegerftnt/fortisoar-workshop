@@ -1,7 +1,7 @@
 ---
 title: BUILD A CUSTOM MODULE FOR FORTISOAR
 linkTitle: Build a Custom Module
-weight: 80
+weight: 70
 ---
 
 ![search_icon](mag_glass.svg)
