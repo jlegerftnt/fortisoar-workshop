@@ -5,7 +5,7 @@ weight: 5
 ---
 
 ![user_complete_icon](check_box.svg)
-Locate the **FortiSOAR-SE_Training2023-PolicyModule.zip** file that is in your downloaded `all_files` folder. This is a solution that we can import into your FortiSOAR instance to handle our policy management use case.
+Locate the **FortiSOAR-SE_Training-PolicyModule.zip** file that is in your downloaded `all_files` folder. This is a solution that we can import into your FortiSOAR instance to handle our policy management use case.
 
 ---
 
@@ -15,7 +15,7 @@ Locate the **FortiSOAR-SE_Training2023-PolicyModule.zip** file that is in your d
 
 3. Click Import from File. ![Import from File Icon](impfile.png?height=200px)
 
-4. Click into the dashed box to open the file explorer or drag the file **FortiSOAR-SE_Training2023-PolicyModule.zip** into the upload box. ![File Import By selecting file](fileexp.png?height=400px)
+4. Click into the dashed box to open the file explorer or drag the file **FortiSOAR-SE_Training-PolicyModule.zip** into the upload box. ![File Import By selecting file](fileexp.png?height=400px)
 
 5. Click ![Continue Button](continue.png?height=40px&classes=left,inline) at the bottom right until you can click ![Run Import button](runimp.png?classes=left,inline)
 

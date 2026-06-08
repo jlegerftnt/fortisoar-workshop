@@ -14,7 +14,7 @@ In this section we’ll create a ZTP profile that will be used to configure the 
 1. Navigate to **FortiManager > ZTP Profiles** and click the ![Add button](add.png?classes=inline) button to add a new record.
 2. Set the following fields (leave the rest as default):
    - **Name**: `Branch ZTP Profile`
-   - **Description**: `Basic ZTP Profile for Fortinet XPERTS 2023`
+   - **Description**: `Basic ZTP Profile for FortiSOAR Workshop`
    - **Assignment Mode**: `Manual`
    - **Assignment Search Fields**: `Device Name`
    - **Assignment Search**: `Branch[1-2]`
@@ -46,7 +46,7 @@ Keep in mind, we set the ZTP profile mode to **Manual**. We will change this lat
 2. Set the following fields on the popup (leave the rest as default):
 
    - **Name**: `Branch ZTP Variables`
-   - **Description**: `Metafields for Fortinet XPERTS 2023`
+   - **Description**: `Metafields for FortiSOAR Workshop`
    - **Metafield Template**:
 
    ```json
@@ -81,7 +81,7 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 
    - **Order Priority**: `90`
    - **Name**: `Purge FortiGate config`
-   - **Description**: `This script will purge FortiGate config for Fortinet XPERTS 2023`
+   - **Description**: `This script will purge FortiGate config for FortiSOAR Workshop`
    - **Type**: `Remote CLI`
    - **Script**:
 
@@ -131,7 +131,7 @@ The order priority is used to determine the order in which the scripts are execu
 2. Set the following fields on the popup (leave the rest as default):
 
    - **Name**: `Config Admin User and Loopback`
-   - **Description**: `This script will create an admin user on a FortiGate for Fortinet XPERTS 2023`
+   - **Description**: `This script will create an admin user on a FortiGate for FortiSOAR Workshop`
    - **Type**: `Remote CLI`
    - **Script**:
 
@@ -152,7 +152,7 @@ The order priority is used to determine the order in which the scripts are execu
        set ip {{devmeta.loopback0_ip}} 255.255.255.255
        set allowaccess ping
        set type loopback
-       set description "Loopback0 for XPERTS"
+       set description "Loopback0 for Workshop"
      next
    end
    ```
