@@ -43,7 +43,7 @@ This will automatically pull in new unauthorized devices every 5 minutes, elimin
 ---
 ### Onboard Branch2
 1. Login to the Branch2 FortiGate using the web interface
-1. Follow the steps outlined [here]({{% relref "/07_Chap_ZTP/05-page.md" %}}) to register the FortiGate to FortiManager
+1. Follow the steps outlined [here]({{% relref "/08_Chap_ZTP/05-page.md" %}}) to register the FortiGate to FortiManager
 1. The device will appear as “Unauthorized” in FortiManager
 
 ---
@@ -55,7 +55,6 @@ Now you can observe the Fortigate being automatically:
 - Configured with all the settings from your ZTP profile
 
 The entire process should complete without any manual intervention, achieving true zero-touch provisioning.
-
 
 
 
