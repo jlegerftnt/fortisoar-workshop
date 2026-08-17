@@ -23,11 +23,6 @@ Now we can use a task assignment to test our email links. If you cannot assign a
    - You should have an email saying, “**A task has been assigned**”.
    - Open the email and click the link to the task and then login to FortiSOAR using “socuser1” and `$3curityFabric`. ![Mail view](mailtask.png)
 
----
 
-1. We need the user csadmin to be signed in
-   - Go back to the browser that has the user `csadmin` signed in
-   - **OR** sign out from socuser1 and sign in as csadmin`$3curityFabric`.
-2. Navigate to **Incident Response > Tasks**
 3. Set the Task **Status** to **Completed** ![Complete status](statuscomplete.png)
 4. Close the task window. ![Exit button](closewindow.png)
